@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://propublica.github.io/timeline-setter/doc/twitter-demo.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link href="http://propublica.github.com/timeline-setter/public/stylesheets/timeline-setter.css" rel="stylesheet">
+    <script src="./twitter-demo_files/jquery-min.js"></script>
+    <script src="./twitter-demo_files/underscore-min.js"></script>
+    <script src="./twitter-demo_files/timeline-setter.js"></script>
+    <script src="./twitter-demo_files/templates.js"></script>
+    
+    <script src="./twitter-demo_files/twitter-text.js"></script>
+    <style>
+        #timeline_setter .TS-item_label a {
+            color: #2262CC;
+        }
+
+            #timeline_setter .TS-item_label a:hover {
+                text-decoration: underline;
+            }
+    </style>
+  </head>
+  <body style="height: 100%">
+
+    <div id="timeline"></div>
+
+     
+
+    <script type="text/javascript">
+	
+		var reqsDone = 0;
+        
+		var newTimeline;
+
+        var currentTimeline;
+       
+        var oldData = null;
+
+        //var cargar = $(function() 
+        
+        function cargar(){
+            
+            
+
+            $.getJSON('List.json', function (data) {
+                if (oldData != data) {
+                    currentTimeline = TimelineSetter.Timeline.boot(data), { 'container': "#timeline" };
+                    oldData = data;
+                }
+           }); 
+            
+            
+           
+        
+        };
+
+        setInterval(cargar, 2000);
+
+        $(function () {
+            cargar();
+        });
+
+
+		
+//		$.ajax({
+//  'url': 'twitter-demo.html',
+//  success: Function(TimelineSetter.Timeline.boot(data), {'container' : "#timeline"}),
+//  timeout: 1000,
+//  error: function(xhr, status, err){ 
+//    //status === 'timeout' if it took too long.
+//    //handle that however you want.
+//    console.log(status,err); 
+//  }
+//});
+        
+        
+        //var refrescar = function refrescar(){
+			
+		//	$.getJSON('List.json', function(data) {
+        //        currentTimeline = TimelineSetter.Timeline.boot(data), {'container' : "#timeline"};
+		//	});
+        //};
+
+        //var reiniciar = function refrescar() {
+
+        //    setTimeout(refrescar, 2000);
+
+        //};
+		
+		
+		
+    </script>
+  
+   
+</body></html>

@@ -1,0 +1,29 @@
+[
+    {
+        "date": "Feb. 19, 1999",
+        "link": "http://www.law.indiana.edu/ilj/volumes/v74/no4/flipper.pdf",
+        "description": "  a fhe first African-American to graduate from West Point. In 1881, Flipper was court-martialed for embezzling and conduct unbecoming an officer, convicted of the latter, and dishonorably discharged. He went on to distinguish himself in a number of public and private-sector jobs while fighting to clear his name before his death in 1940.",
+        "display_date": "Feb. 19, 1999",
+        "series": "A",
+        "timestamp": 919400400000,
+        "html": "<h2 class=\"timeline-ing-hed\">Clinton Grants the First Posthumous Pardon</h2><img src=\"http://www.propublica.org/projects/pardons/gt_1999_clinton_flipper_390x260.jpg\" width=\"390\" height=\"260\" alt=\"President Bill Clinton, center, is surrounded by the descendants of Henry O. Flipper as he signs a pardon of Flipper -- West Point's first African-American graduate -- during a ceremony on Feb. 19, 1999, at the White House. (Chris Kleponis/AFP/Getty Images)\">"
+    },
+    {
+        "date": "Dec. 24, 1971",
+        "link": "http://www.history.com/audio/jimmy-hoffa-pardoned-by-nixon",
+        "description": "\rRichardpete Nixon pardons Teamsters leader Jimmy Hoffa four years into a 15-year sentence for jury tampering and fraud on the condition that he stay out of labor management for 10 years. He supported Nixon's re-election in 1972 and was believed to be trying to reassert his union power when he disappeared in 1975.",
+        "display_date": "Dec. 24, 1971",
+        "series": "B",
+        "timestamp": 62398800000,
+        "html": ""
+    },
+    {
+        "date": "Jan. 21, 2001",
+        "link": "http://www.time.com/time/nation/article/0,8599,99302,00.html",
+        "description": "Clinton's most controversial last-minute pardon went to Marc Rich, a wealthy commodities trader who fled the U.S. after being indicted in 1983 for evading $48 million in taxes, tax fraud and illegal deals with Iran. Rich's wife, Denise, left, was a major Democratic donor and gave $450,000 to the Clinton presidential library fund.",
+        "display_date": "Jan. 20, 2001",
+        "series": "A",
+        "timestamp": 980053200000,
+        "html": "<h2 class=\"timeline-ing-hed\">Marc Rich</h2><img src=\"http://www.propublica.org/projects/pardons/rt_2001_clinton_rich_390x260.jpg\" width=\"390\" height=\"260\" alt=\"Denise Rich presents President Bill Clinton with a saxophone at the G&P Foundation gala in New York City on Nov. 30, 2000. (Mike Segar/Reuters)\">"
+    }
+]
